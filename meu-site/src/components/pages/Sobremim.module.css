@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+}
+
+.fundo_txt {
+    background-color: #5191c1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    max-width: 600px;
+    min-height: 790px;
+    background-color: white;
+    color: #0a4b75;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.text h1 {
+    margin-bottom: 10px;
+}
+
+
+.text p {
+    font-size: 1.4em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.foto {
+    background-image: url('../../img/foto-minha-praia.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 920px;
+}

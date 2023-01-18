@@ -1,0 +1,85 @@
+.content {
+    min-height: 1200px;
+    background-color: #5191c1;
+}
+
+.content .titulos {
+    width: 100%;
+    display: flex;
+    padding-top: 20px ;
+    color: white;
+}
+
+.titulos h1 {
+    width: 50%;
+}
+
+.titulos .unico {
+    margin-left: 80px;
+}
+
+.bloco {
+    display: flex;
+    width: 100%;
+}
+
+.bloco_left {
+    max-width: 50%;
+}
+
+.bloco_right {
+    width: 50%;
+}
+
+.bloco_right div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 80px 0 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.blocos {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 40px 0px 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo_nome {
+    display: flex;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.logo_nome h2 {
+    margin: 4px 0 0 10px;
+}
+
+.content .react, .js, .css, .html, .loading {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.content .titulo {
+    font-size: 2em;
+    margin: 0px 0px 10px 0px;
+}
+
+.content p {
+    flex-direction: column;
+    line-height: 1.6em;
+}
+
+.cerebro {
+    margin: 20px;
+    width: 95%;
+}
+
+

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: font ;
+    src: url('../../fonts/Louis-George-Cafe-Bold-Italic.ttf') format('opentype');
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    background-color:#0a4b75; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1 a {
+    font-size: font;
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    width: 50%;
+}
+
+.container ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 50%;
+}
+
+.container ul a {
+    text-decoration: none;
+    margin: 1em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.container ul a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background-color: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.container ul a:hover:after {
+    width: 100%;
+    left: 0;
+}
